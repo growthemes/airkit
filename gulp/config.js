@@ -10,5 +10,10 @@ module.exports = {
     }
   },
   SASS_SOURCE: ['./source/sass/*.sass', './source/sass/*.scss'],
-  SASS_OUT_DIR: './dist/css/'
+  SASS_OUT_DIR: './dist/css/',
+  SASS_OPTIONS: {},
+  FINGERPRINT_ENABLED: true,
+  FINGERPRINT_PREFIX: '/source/',
+  FINGERPRINT_SOURCE_DIR: './source/',
+  FINGERPRINT_FORMAT: '/static/{dir}/{base}-{fingerprint}{ext}'
 };

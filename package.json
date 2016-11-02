@@ -3,8 +3,11 @@
     "airkit": "^0.2.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-modify-css-urls": "^0.2.2",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
+    "md5-file": "^3.1.1",
     "require-dir": "^0.3.1"
   }
 }

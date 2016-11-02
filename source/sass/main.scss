@@ -1,12 +1,11 @@
-// Globals.
-@import '_global';
+// Config.
+@import 'config';
 
-// Components.
-@import '_button';
-@import '_nav';
-@import '_modifiers';
+// Third party.
+@import '../../node_modules/airkit/grid/grid';
+
+// Global/common components.
+@import 'mixins';
+@import 'global';
 
 // Partials.
-@import '_header';
-@import '_main';
-@import '_footer';

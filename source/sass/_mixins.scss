@@ -1,0 +1,33 @@
+@import '../../node_modules/airkit/breakpoint/mixins';
+
+@mixin xs {
+  @include ak-breakpoint-gt(xs) {
+    @content;
+  }
+}
+@mixin sm {
+  @include ak-breakpoint-gt(sm) {
+    @content;
+  }
+}
+@mixin md {
+  @include ak-breakpoint-gt(md) {
+    @content;
+  }
+}
+@mixin lg {
+  @include ak-breakpoint-gt(lg) {
+    @content;
+  }
+}
+@mixin xl {
+  @include ak-breakpoint-gt(xl) {
+    @content;
+  }
+}
+
+@mixin responsive() {
+  @include ak-breakpoint-rule-gt() {
+    @content;
+  }
+}
